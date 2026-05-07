@@ -4,7 +4,9 @@
 //data types in javascript
 /*data types define what kind of value of variale can stroe.*/
 
-//primitive datatypes (stored by value)
+//primitive datatypes 
+// call by value
+//(stored by value)
 
 let name="mangal"//string
 console.log(typeof name)
