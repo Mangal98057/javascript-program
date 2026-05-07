@@ -81,3 +81,4 @@ Used with conditions.
 
 
 */
+console.log(2==3)
