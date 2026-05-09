@@ -52,9 +52,28 @@ console.log(typeof big)
  console.log(arr)
 
  //Function 
- function name(){
-    return "mangal"
- }
+//  function name(){
+//     return "mangal"
+//  }
  //typeof operator
  //typeof null === "object" ? it is a javascript bug legacy issue
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack memory (premetive type)
+
+//heap memory (non-premetive type)
+
+let myName="mangal"  //this is stack create a prototype
+let Name=myName
+console.log(Name)
+
+
+let user1={         
+   email:"smangal@gmail.com"    
+
+}
+let user2={
+   email:"seema@12gmail.com"
+}
+console.log(user1)
+console.log(user2)
