@@ -10,5 +10,7 @@ console.log(currentDate.toLocaleString())
 //user set date manual
 const userDate= new Date("03-01-1999")
 console.log(typeof userDate.toLocaleDateString())//string 
+console.log(userDate.toDateString())
+console.log(userDate.getMonth())// specially find month date and time hours and second 
 
 
