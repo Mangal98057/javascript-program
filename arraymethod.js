@@ -3,7 +3,7 @@ const arr =[1,2,3,4]
 const b=arr.length
 const push=arr.push(5)
 //const pop=arr.pop()
-//const shift=arr.shift(2)
+//const shift=arr.shift(2) //first remove element 
 const index=arr.indexOf(4)//3
 //const at=arr.at(1)//2
 //const slice=arr.slice(1,2,3)//2
@@ -15,6 +15,7 @@ const include=arr.includes(5)//check value true and false
 //const splice=arr.splice(1,2,"mangal")//add string arr return value 4,3
 const flat =arr.flat()
 const find=arr.find((num)=>num ===2)
+const newArray= arr.join()// join to convert object to string 
 
 console.log(arr)
 console.log(b)
@@ -31,3 +32,4 @@ console.log(include)
 //console.log(splice)
 console.table(flat)
 console.log(find)
+console.log(newArray)
