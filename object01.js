@@ -1,10 +1,10 @@
 //singleton object
 const instaUser= new Object();
-console.log(instaUser)//object return 
+//console.log(instaUser)//object return 
 
 //non singleton
 const user1={}
-console.log(user1)//object return
+//console.log(user1)//object return
 
 //nested object 
 const user2={
@@ -29,5 +29,15 @@ const user2={
 
 //console.log(Object.keys(user2))//store object to array
 //console.log(Object.values(user2))//object value store array 
-console.log(Object.entries(user2))
-console.log(user2.hasOwnProperty("email"))//check the email true 
+//console.log(Object.entries(user2))
+//console.log(user2.hasOwnProperty("email"))//check the email true 
+
+
+//object de-structuring 
+const course={
+    courseName:"javascript",
+    price:"2000",
+    courseInstructor:"mangal"
+}
+const {courseInstructor:instructor}=course
+console.log(instructor)
