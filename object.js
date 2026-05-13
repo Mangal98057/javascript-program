@@ -1,5 +1,8 @@
 //singleton 
 //present create constructor use is constructor 
+
+
+//object literal
 const mySymble=Symbol("key1")
 const user1 ={
     name:"mangal singh",
