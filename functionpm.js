@@ -39,3 +39,17 @@ function handleObject(anyobject){
 
 }
 handleObject()
+
+
+
+//function expression
+const add=function sum(x,y){
+    return x+y
+}
+console.log(add(4,3))
+
+const name=function(){
+    console.log("mangal singh")
+}
+name()
+
