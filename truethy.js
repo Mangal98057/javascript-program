@@ -34,4 +34,19 @@ true
 []
 {}
 function(){}
+
+
+
+
+| Value Type       | Result |
+| ---------------- | ------ |
+| Non-empty string | Truthy |
+| Empty string     | Falsy  |
+| Non-zero number  | Truthy |
+| Zero             | Falsy  |
+| Arrays           | Truthy |
+| Objects          | Truthy |
+| `null`           | Falsy  |
+| `undefined`      | Falsy  |
+
 */
