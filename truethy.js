@@ -50,3 +50,11 @@ function(){}
 | `undefined`      | Falsy  |
 
 */
+
+//nullish coalesing operator (??) null undefined
+
+let val1;
+//val1=4 ?? 5
+
+val1 =null ?? 10
+console.log(val1)
