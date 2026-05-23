@@ -32,4 +32,12 @@ while(i < keys.length){
 
     i++
 }
+//do while loop
+
+let marks =50
+do {
+    console.log(`marks ${marks}`)
+    marks++
+}
+while(marks<=70)
 
