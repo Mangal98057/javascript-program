@@ -17,7 +17,7 @@ for (let i = 0; i <= 10; i++) {
 
 //break and continue
 
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i <= 20; i++) {
     for (let j = 0; j <= 10; j++) {
         if(j==6){
             console.log("detected 6")
