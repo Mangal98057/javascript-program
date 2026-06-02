@@ -1,0 +1,22 @@
+#gray{
+    background-color: gray;
+    border: 7px solid #ccc;
+}
+#white{
+    background-color: white;
+    border: 7px solid #ccc;
+}
+#black{
+    background-color: black;
+    border: 7px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#red{
+    background-color: red;
+    border: 7px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}

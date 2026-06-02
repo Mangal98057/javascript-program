@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+<body style="background-color: #121212; color: #ffffff;">
+    <div class="container">
+        <h1>Async</h1>
+        <p>Asynchronous programming allows you to perform tasks without blocking the main thread. This is particularly useful for tasks that take a long time to complete, such as fetching data from an API or reading files.</p>
+        <p>In JavaScript, you can use callbacks, promises, and async/await to handle asynchronous operations.</p>
+    </div>
+    <button id ="fetchData">Fetch Data</button>
+</body>
+<script>
+setTimeout(function() {
+    console.log("This will be logged after 2 seconds");
+}, 2000);
+console.log("This will be logged after 1 seconds");
+//reference function
+const Mangal=()=>{
+    console.log("This will be logged after 3 seconds");
+}
+setTimeout(Mangal,3000);
+//
+
+ const textChangeheading=setTimeout(function() {
+   document.querySelector("h1").innerHTML = "Async Programming in JavaScript";
+}, 4000);
+const button=document.getElementById("fetchData").addEventListener("click", function() {
+    clearTimeout(textChangeheading);
+    console.log("Button clicked, timeout cleared");
+});
+</script>
+</html>
