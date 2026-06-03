@@ -27,12 +27,15 @@
     };
     let intervalId;
     const startButton = document.getElementById("start").addEventListener("click",function(){
+        if(!intervalId){
          intervalId=setInterval(function(){
             document.body.style.backgroundColor = randomColor();
         },1000);
+        }
     });
     const stopButton = document.getElementById("stop").addEventListener("click",function(){
         clearInterval(intervalId);
+        intervalId=null;
     });
 </script>
 </html>
